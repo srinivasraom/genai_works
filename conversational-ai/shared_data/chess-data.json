@@ -1,0 +1,230 @@
+{
+  "test_suites": {
+    "STS": {
+      "description": "Strategic Test Suite by Corbit and Natarajan - Designed to evaluate chess engine's long term understanding of strategical and positional concepts",
+      "engine_benchmark": "Houdini 4/StockFish030414 92/100 1 second/position +1 minute/position",
+      "suites": [
+        {
+          "id": 1,
+          "name": "Undermining",
+          "score": 91
+        },
+        {
+          "id": 2,
+          "name": "Open Files and Diagonals",
+          "score": 80
+        },
+        {
+          "id": 3,
+          "name": "Knight Outposts",
+          "score": 96
+        },
+        {
+          "id": 4,
+          "name": "Square Vacancy",
+          "score": 82
+        },
+        {
+          "id": 5,
+          "name": "Bishop vs Knight",
+          "score": null
+        },
+        {
+          "id": 6,
+          "name": "Re-Capturing",
+          "score": 71
+        },
+        {
+          "id": 7,
+          "name": "Offer of Simplification",
+          "score": 63
+        },
+        {
+          "id": 8,
+          "name": "Advancement of f/g/h pawns",
+          "score": null
+        },
+        {
+          "id": 9,
+          "name": "Advancement of a/b/c Pawns",
+          "score": null
+        },
+        {
+          "id": 10,
+          "name": "Simplification",
+          "score": 82
+        },
+        {
+          "id": 11,
+          "name": "Activity of the King",
+          "score": 46
+        },
+        {
+          "id": 12,
+          "name": "Center Control",
+          "score": 88
+        },
+        {
+          "id": 13,
+          "name": "Pawn Play in the Center",
+          "score": 64
+        },
+        {
+          "id": 14,
+          "name": "Queens and Rooks 7th Rank",
+          "score": null
+        },
+        {
+          "id": 15,
+          "name": "Avoid Pointless Exchange",
+          "score": 87
+        }
+      ]
+    },
+    "Colditz": {
+      "description": "Colditz Chess Test Positions",
+      "positions": [
+        {
+          "id": "Colditz 1",
+          "fen": "3r2k1/p3R1p1/1pq2pQp/8/8/1P4P1/PB3P1P/3b2K1",
+          "best_move": "Qh1+",
+          "score": 25
+        },
+        {
+          "id": "Colditz 2",
+          "fen": "5r1k/5Bpp/p1p1Qb2/1pq5/4Pp2/7R/Pr3PPP/5RK1",
+          "best_move": "Rxh7+",
+          "score": 25
+        },
+        {
+          "id": "Colditz 3",
+          "fen": "3R4/1p3kpp/8/1P1b4/8/3r1N2/6PP/6K1",
+          "best_move": "Rd1+",
+          "score": 25
+        },
+        {
+          "id": "Colditz 4",
+          "fen": "4rrk1/1bp2ppp/p7/1p1q4/3P1B2/2P3P1/PP5K/RN1Q2R1",
+          "best_move": "Re1",
+          "score": 30
+        },
+        {
+          "id": "Colditz 5",
+          "fen": "6k1/1p1qrpp1/p7/7p/PQ6/8/1PPp2PP/3R2K1",
+          "best_move": "Re1+",
+          "score": 30
+        }
+      ]
+    },
+    "CCR": {
+      "description": "CCR Test Positions",
+      "positions": [
+        {
+          "id": 1,
+          "fen": "rn1qkb1r/pp2pppp/5n2/3p1b2/3P4/2N1P3/PP3PPP/R1BQKBNR",
+          "best_move": "Qb3"
+        },
+        {
+          "id": 2,
+          "fen": "rn1qkb1r/pp2pppp/5n2/3p1b2/3P4/1QN1P3/PP3PPP/R1B1KBNR",
+          "best_move": "Bc8",
+          "secondary_move": "Nc6"
+        },
+        {
+          "id": 3,
+          "fen": "r1bqk2r/ppp2ppp/2n5/4P3/2Bp2n1/5N1P/PP1N1PP1/R2Q1RK1",
+          "best_move": "Nh6",
+          "avoid_move": "Ne5"
+        },
+        {
+          "id": 4,
+          "fen": "r1bqrnk1/pp2bp1p/2p2np1/3p2B1/3P4/2NBPN2/PPQ2PPP/1R3RK1",
+          "best_move": "b4"
+        },
+        {
+          "id": 5,
+          "fen": "rnbqkb1r/ppp1pppp/5n2/8/3PP3/2N5/PP3PPP/R1BQKBNR",
+          "best_move": "e5"
+        }
+      ]
+    },
+    "LCTII": {
+      "description": "LCTII Test Positions",
+      "positions": [
+        {
+          "id": "LCTII.POS.01",
+          "epd": "r3kb1r/3n1pp1/p6p/2pPp2q/Pp2N3/3B2PP/1PQ2P2/R3K2R",
+          "best_move": "d6",
+          "category": "POS",
+          "info": "Chernin - Miles, Tunis 1985"
+        },
+        {
+          "id": "LCTII.POS.02",
+          "epd": "1k1r3r/pp2qpp1/3b1n1p/3pNQ2/2pP1P2/2N1P3/PP4PP/1K1RR3",
+          "best_move": "Bb4",
+          "category": "POS",
+          "info": "Lilienthal - Botvinnik, Moskau 1945"
+        },
+        {
+          "id": "LCTII.POS.03",
+          "epd": "r6k/pp4p1/2p1b3/3pP3/7q/P2B3r/1PP2Q1P/2K1R1R1",
+          "best_move": "Qc5",
+          "category": "POS",
+          "info": "Boissel - Boulard, corr. 1994"
+        },
+        {
+          "id": "LCTII.POS.04",
+          "epd": "1nr5/2rbkppp/p3p3/Np6/2PRPP2/8/PKP1B1PP/3R4",
+          "best_move": "e5",
+          "category": "POS",
+          "info": "Kaplan - Kopec, USA 1975"
+        },
+        {
+          "id": "LCTII.POS.05",
+          "epd": "2r2rk1/1p1bq3/p3p2p/3pPpp1/1P1Q4/P7/2P2PPP/2R1RBK1",
+          "best_move": "Bb5",
+          "category": "POS",
+          "info": "Estrin - Pytel, Albena 1973"
+        }
+      ]
+    },
+    "Nolot": {
+      "description": "The Nolot Suite - 11 tactical positions computers can't solve",
+      "notes": [
+        "3, 6, and 9 are monsters and remain unsolved",
+        "1, 4, and 10 are solvable, but scores haven't been convincing",
+        "11 best result is a draw",
+        "8 is solvable but might be found due to speculation",
+        "2, 5, and 7 are known to be findable as wins"
+      ],
+      "positions": [
+        {
+          "id": 1,
+          "epd": "r3qb1k/1b4p1/p2pr2p/3n4/Pnp1N1N1/6RP/1B3PP1/1B1QR1K1",
+          "best_move": "Nxh6"
+        },
+        {
+          "id": 2,
+          "epd": "r4rk1/pp1n1p1p/1nqP2p1/2b1P1B1/4NQ2/1B3P2/PP2K2P/2R5",
+          "best_move": "Rxc5"
+        },
+        {
+          "id": 3,
+          "epd": "r2qk2r/ppp1b1pp/2n1p3/3pP1n1/3P2b1/2PB1NN1/PP4PP/R1BQK2R",
+          "best_move": "Nxg5",
+          "secondary_move": "h3"
+        },
+        {
+          "id": 4,
+          "epd": "r1b1kb1r/1p1n1ppp/p2ppn2/6BB/2qNP3/2N5/PPP2PPP/R2Q1RK1",
+          "best_move": "Nxe6"
+        },
+        {
+          "id": 5,
+          "epd": "r2qrb1k/1p1b2p1/p2ppn1p/8/3NP3/1BN5/PPP3QP/1K3RR1",
+          "best_move": "e5"
+        }
+      ]
+    }
+  }
+}
